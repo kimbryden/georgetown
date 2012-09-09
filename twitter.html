@@ -10,7 +10,7 @@
     <!-- Styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/georgetown.css" rel="stylesheet">
+    <link href="css/georgetown-twitter.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 0px;
@@ -33,15 +33,10 @@
   
   <!-- Begin body -->
   <body>
-	<div class="img-bg">
+
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span> 
-            <span class="icon-bar"></span>
-          </a>
           <a class="brand" href="#">Georgetown School of Continuing Studies</a>
         </div>
       </div>
@@ -53,11 +48,41 @@
       <div class="hero-unit">
         <h1>MAke Your MArk.</h1>
         <p>Georgetown University School of Continuing Studies offers the tools you need to advance professionally.</p>
-        <p>Apply today to one of our seven masters programs.</p>
-        <p><input type="text" placeholder="Name"></p>
-        <p><input type="text" placeholder="Email"></p>
-        <p><a class="btn btn-info btn-large">Get Started &raquo;</a></p>
-        <hr>
+        <p>Fill out the form below to begin your application.</p>
+        <form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="inputEmail">Name</label>
+    <div class="controls">
+      <input type="text" id="inputEmail" placeholder="John Smith">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">Twitter</label>
+    <div class="controls">
+      <input type="text" id="inputEmail" placeholder="@johnsmith">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">Email</label>
+    <div class="controls">
+      <input type="text" id="inputPassword" placeholder="john.smith@georgetown.edu">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">Personal Statement</label>
+    <div class="controls">
+      <textarea rows="3" placeholder="140 character max"></textarea>
+    </div>
+  </div>
+  <div class="control-group">
+  	<a href="img/app.pdf" style="margin-left: 160px;color: white;">View Terms and Conditions (PDF) &rarr;</a>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <button type="submit" class="btn btn-success" style="width:224px;">Start your today</button>
+    </div>
+  <div>
+  	<hr>
         <p>Georgetown School of Continuing Studies offers graduate degrees in</p>
         <ul>
         	<li>Emergency and Disaster Management</li>
@@ -67,16 +92,19 @@
         	<li>Public Relations</li>
         	<li>Journalism</li>
         </ul>
-        </div>
-        
-      <hr>
-
+  </div>
+</form>
+      </div>
+      
+      
+<!-- Name, twitter, email, 140char textbox 'why', T&C,  -->
+            </div>
       <footer>
-        <p>&copy; Company 2012</p>
+
       </footer>
 
     </div> <!-- /container -->
-	</div> <!-- /img-bg -->
+    
     <!-- Javascript
     ================================================== -->
     <script src="js/jquery.js"></script>

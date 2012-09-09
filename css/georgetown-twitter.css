@@ -1,0 +1,45 @@
+/*!
+ * Georgetown SCS Override
+ */
+ 
+/* Global */
+
+html {
+}
+
+body {
+	background: url(../img/4.jpeg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* Specific Overrides */ 
+
+h1 {
+	font-size: 52px !important;
+	font-weight: 300;
+}
+
+.hero-unit {
+	background-color: #989898;
+	color: white;
+	box-shadow: 0px 0px 10px #000000;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.hero-unit h1 {
+	margin-bottom: 14px;
+}
+
+.hero-unit ul {
+	margin-left: 15px;
+}
+
+.hero-unit li {
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+
