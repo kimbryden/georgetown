@@ -16,7 +16,7 @@ body {
 	background-color: transparent;
 }
 
-/* Specific Overrides */
+/* Specific Overrides */ 
 
 h1 {
 	font-size: 52px !important;
@@ -42,3 +42,4 @@ h1 {
 	margin-bottom: 10px;
 	list-style-type: none;
 }
+
